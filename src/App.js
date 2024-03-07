@@ -46,7 +46,7 @@ function Tabbed({ content }) {
     </div>
   );
 }
-
+console.log(<DifferentContent />);
 function Tab({ num, activeTab, onClick }) {
   return (
     <button
